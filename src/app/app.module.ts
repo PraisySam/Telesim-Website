@@ -9,6 +9,10 @@ import { FrontComponent } from './Components/front/front.component';
 import { MainComponent } from './Components/main/main.component';
 import { CoursesComponent } from './Components/courses/courses.component';
 import { ServicesComponent } from './Components/services/services.component';
+import { AccessibleComponent } from './Components/accessible/accessible.component';
+import { CommunityComponent } from './Components/community/community.component';
+
+
 
 @NgModule({
   declarations: [
@@ -17,8 +21,10 @@ import { ServicesComponent } from './Components/services/services.component';
     FooterComponent,
     FrontComponent,
     MainComponent,
+    AccessibleComponent,
     CoursesComponent,
-    ServicesComponent
+    ServicesComponent,
+    CommunityComponent
   ],
   imports: [
     BrowserModule,
