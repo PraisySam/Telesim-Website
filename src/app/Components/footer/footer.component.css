@@ -1,5 +1,5 @@
 #footer {
-    color: #37423b;
+    color: #4b554f;
     font-size: 14px;
     background: #eef0ef;
     align-content: center;
@@ -76,5 +76,8 @@
     text-decoration: none;
     color: #5fcf80;
   }
-  
+  #footer .social{
+    align-content: center;
+    
+  }
   
