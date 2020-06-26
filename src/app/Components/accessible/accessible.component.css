@@ -85,3 +85,23 @@ h3 {
 	border-radius: 10px;
 }
 
+/* Mobile */
+@media (max-width: 700px) {
+	.content,
+	.section-stream .play,
+	.section-stream .content {
+		position: static;
+		width: 100%;
+	}
+	
+	.section-stream {
+		min-height: 400px;
+	}
+
+	.section-stream .play {
+		width: 50%;
+		display: block;
+		margin: 30px auto;
+	}
+
+}
