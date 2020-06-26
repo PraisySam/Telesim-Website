@@ -1,0 +1,27 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.form-control{
+  width: 300px;
+}
+
+.btn.btn-primary
+{
+	box-shadow: none;
+	padding: 6px 25px;
+	border: none;
+  border-radius: 5px;
+  margin: 8px 8px;
+	
+}
+
+.btn.btn-primary {
+  background: #367c4a;
+ 
+}
