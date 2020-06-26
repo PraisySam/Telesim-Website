@@ -7,9 +7,41 @@ h3 {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	background-color: azure;
 }
 
-
+ 
+.section-title h2 {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 5px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+	content: "";
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #9ae1af;
+	margin: 4px 10px;
+  }
+  
+  .section-title p {
+	margin: 0;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 400;
+	
+	font-family: "Poppins", sans-serif;
+	color: #37423b;
+  }
+  
 .section {
 	position: relative;
 	padding: 0 20px;
@@ -36,14 +68,35 @@ h3 {
 .section-stream .content {
 	position: absolute;
 	width: 50%;
-	top: 130px;
+	top: 100px;
+	font-size: 20px;
+	font-weight: 100;
+	font-family: "Poppins", sans-serif;
 	right: 70px;
 }
 
 .section-stream .content > div {
-	background: rgba(255, 255, 255, 0.1);
+	background-color: azure;
 	padding: 20px;
-	margin-bottom: 20px;
+	
 	border-radius: 10px;
 }
 
+
+.btn.btn-primary
+{
+	box-shadow: none;
+	padding: 8px 30px;
+	border: none;
+    border-radius: 5px;
+	margin: 0 50px;
+	margin-left: 5%;
+	margin-top: 0%;
+
+	
+}
+
+.btn.btn-primary {
+  background: #367c4a;
+ 
+}
