@@ -24,14 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -124,10 +119,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "Telesim-Website",
-  "cli": {
-    "analytics": "50f51c72-b039-4814-a356-cc1af0f37740"
-  }
+    }},
+  "defaultProject": "Telesim-Website"
 }
