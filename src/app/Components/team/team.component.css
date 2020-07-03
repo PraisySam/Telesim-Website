@@ -1,0 +1,72 @@
+
+.section-title {
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+  }
+
+  .section {
+    position: relative;
+    padding: 0 10px;
+  }
+
+  /* Section Grid */
+.section-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 35px;
+	text-align: left;
+}
+
+
+.section-grid .dot {
+	font-size: 40px;
+	padding-left: 2px;
+}
+
+.section-grid > div {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.grey-text{
+  color: #aaaaaa;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .section-grid {
+		display: block;
+		margin-top: 0;
+	}
+}

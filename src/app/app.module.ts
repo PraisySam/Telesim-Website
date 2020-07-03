@@ -11,6 +11,7 @@ import { CoursesComponent } from './Components/courses/courses.component';
 import { ServicesComponent } from './Components/services/services.component';
 import { AccessibleComponent } from './Components/accessible/accessible.component';
 import { CommunityComponent } from './Components/community/community.component';
+import { TeamComponent } from './Components/team/team.component';
 
 
 
@@ -24,7 +25,8 @@ import { CommunityComponent } from './Components/community/community.component';
     AccessibleComponent,
     CoursesComponent,
     ServicesComponent,
-    CommunityComponent
+    CommunityComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
